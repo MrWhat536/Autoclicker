@@ -57,13 +57,11 @@ lab4.grid(row=3, column=2,padx=3)
 
 def selected(event):
     sel =combobox.get()
-    print (sel)
     keyboard.add_hotkey(f'{sel}', change)
 
 def numb(event):
     global wow
     wow=int(ent.get())
-    print (wow)
     
 
 
